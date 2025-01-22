@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Main Content Section -->
+    <div class="content-container">
+        <!-- Language Selector -->
+        <div class="language-selector">
+            <select id="language" onchange="changeLanguage()">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+                <option value="de">Deutsch</option>
+                <option value="zh">中文</option>
+            </select>
+        </div>
+
+        <!-- Buttons -->
+        <div class="button-container">
+            <div class="button-item">
+                <button class="round-btn" onclick="window.location.href='checkin.html'">
+                    <img src="images/perla homes.jpg" alt="Check-In">
+                </button>
+                <span>Check-In</span>
+            </div>
+            <div class="button-item">
+                <button class="round-btn" onclick="window.location.href='wifi.html'">
+                    <img src="images/Pisina.jpg" alt="Wifi">
+                </button>
+                <span>Wifi</span>
+            </div>
+            <div class="button-item">
+                <button class="round-btn" onclick="window.location.href='map.html'">
+                    <img src="images/wifi.png" alt="Map">
+                </button>
+                <span>Map</span>
+            </div>
+            <div class="button-item">
+                <button class="round-btn" onclick="window.location.href='mobi.html'">
+                    <img src="mobi-icon.jpg" alt="Mobi">
+                </button>
+                <span>Mobi</span>
+            </div>
+            <div class="button-item">
+                <button class="round-btn" onclick="window.location.href='contact.html'">
+                    <img src="contact-icon.jpg" alt="Contact">
+                </button>
+                <span>Contact</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

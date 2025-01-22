@@ -1,0 +1,129 @@
+/* Basic Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Background with image and overlay */
+body {
+    background-image: url('images/Perla\ Homes\ Photo.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Semi-transparent overlay */
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3); /* Adjust this to change the contrast */
+    z-index: -1; /* Places the overlay behind content */
+}
+
+/* Main Content */
+.content-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Language selector positioned at the top left */
+.language-selector {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1; /* Ensures it's above other content */
+}
+
+.language-selector select {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+}
+
+/* Styling for each button item */
+.button-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.round-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0; /* Remove padding */
+    border-radius: 50%;
+    width: 70px;  /* Smaller width */
+    height: 70px;  /* Smaller height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    overflow: hidden; /* Ensure image stays inside the circle */
+    margin-bottom: 8px; /* Space between button and text */
+}
+
+.round-btn:hover {
+    background-color: #45a049;
+}
+
+.round-btn:focus {
+    outline: none;
+}
+
+.round-btn img {
+    width: 100%; /* Fill the button's width */
+    height: 100%; /* Fill the button's height */
+    object-fit: cover; /* Ensures the image covers the entire circle without distortion */
+}
+
+button:active {
+    transform: scale(0.98); /* Slight scale-down effect on click */
+}
+
+/* Text under the button */
+.button-item span {
+    color: white;
+    font-size: 12px; /* Smaller text */
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Optional: background for the footer */
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.footer p {
+    margin: 0;
+}
