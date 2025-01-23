@@ -131,7 +131,7 @@ button:active {
 #logo {
     display: block;
     margin: 0 auto; /* Center the logo */
-    max-width: 300px; /* Adjust the size as needed */
+    max-width: 350px; /* Adjust the size as needed */
     height: auto; /* Keep the aspect ratio intact */
 }
 
