@@ -117,7 +117,7 @@ button:active {
 .footer {
     background-color: rgba(0, 0, 0, 0.7); /* Optional: background for the footer */
     width: 100%;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
     color: white;
 }
@@ -148,4 +148,11 @@ button:active {
     text-align: center; /* Center align the text */
     margin-top: 20px; /* Add some space between the logo and the heading */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: add shadow for better readability */
+}
+
+p {
+    text-align: center; /* Centers the text */
+    font-size: 1.2em;    /* Optional: adjust the font size */
+    color: white;        /* Optional: ensure the text is white */
+    margin-top: 10px;    /* Optional: add some spacing from the heading */
 }
