@@ -41,20 +41,18 @@ body::after {
 }
 
 /* Language selector positioned at the top left */
-.language-selector {
+#google_translate_element {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    z-index: 1; /* Ensures it's above other content */
+    top: 10px;
+    left: 10px;
+    z-index: 9999;
+    padding: 5px;
+    
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 5px; /* Optional rounded corners */
 }
 
-.language-selector select {
-    font-size: 18px;
-    padding: 1px;
-    background-color: #e9f0ed;
-    border-radius: 5px;
-    cursor: pointer;
-}
+
 
 /* Button container */
 .button-container {
@@ -119,7 +117,7 @@ button:active {
 .footer {
     background-color: rgba(0, 0, 0, 0.7); /* Optional: background for the footer */
     width: 100%;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
     color: white;
 }
@@ -140,4 +138,14 @@ button:active {
 }
 .round-btn:hover {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling for h1 element */
+#main-heading {
+    font-family: 'Roboto', sans-serif; /* Use a nice, modern font like Roboto */
+    font-size: 3em; /* Adjust the size of the text */
+    color: white; /* Make the text white */
+    text-align: center; /* Center align the text */
+    margin-top: 20px; /* Add some space between the logo and the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: add shadow for better readability */
 }
