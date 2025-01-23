@@ -25,7 +25,7 @@ body::after {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.3); /* Adjust this to change the contrast */
+    background: rgba(10, 10, 10, 0.1); /* Adjust this to change the contrast */
     z-index: -1; /* Places the overlay behind content */
 }
 
@@ -135,3 +135,9 @@ button:active {
     height: auto; /* Keep the aspect ratio intact */
 }
 
+.round-btn {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.round-btn:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
