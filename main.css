@@ -10,7 +10,7 @@ body, html {
 
 /* Background with image and overlay */
 body {
-    background-image: url('images/Perla\ Homes\ Photo.jpg'); /* Replace with your background image */
+    background-image: url('images/fonto.png'); /* Replace with your background image */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -50,8 +50,8 @@ body::after {
 
 .language-selector select {
     font-size: 18px;
-    padding: 10px;
-    background-color: #fff;
+    padding: 1px;
+    background-color: #e9f0ed;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -74,7 +74,7 @@ body::after {
 }
 
 .round-btn {
-    background-color: #4CAF50;
+    background-color: #eff5ef;
     color: white;
     border: none;
     padding: 0; /* Remove padding */
@@ -91,7 +91,7 @@ body::after {
 }
 
 .round-btn:hover {
-    background-color: #45a049;
+    background-color: #3d5e4d;
 }
 
 .round-btn:focus {
@@ -111,7 +111,7 @@ button:active {
 /* Text under the button */
 .button-item span {
     color: white;
-    font-size: 12px; /* Smaller text */
+    font-size: 17px; /* Smaller text */
     font-weight: bold;
 }
 
@@ -127,3 +127,11 @@ button:active {
 .footer p {
     margin: 0;
 }
+
+#logo {
+    display: block;
+    margin: 0 auto; /* Center the logo */
+    max-width: 500px; /* Adjust the size as needed */
+    height: auto; /* Keep the aspect ratio intact */
+}
+
