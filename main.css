@@ -143,7 +143,7 @@ button:active {
 /* Styling for h1 element */
 #main-heading {
     font-family: 'Roboto', sans-serif; /* Use a nice, modern font like Roboto */
-    font-size: 3em; /* Adjust the size of the text */
+    font-size: 2.5em; /* Adjust the size of the text */
     color: white; /* Make the text white */
     text-align: center; /* Center align the text */
     margin-top: 20px; /* Add some space between the logo and the heading */
@@ -152,7 +152,7 @@ button:active {
 
 p {
     text-align: center; /* Centers the text */
-    font-size: 1.2em;    /* Optional: adjust the font size */
+    font-size: 1em;    /* Optional: adjust the font size */
     color: white;        /* Optional: ensure the text is white */
-    margin-top: 10px;    /* Optional: add some spacing from the heading */
+    margin-top: 5px;    /* Optional: add some spacing from the heading */
 }
