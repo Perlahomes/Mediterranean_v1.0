@@ -115,7 +115,8 @@ button:active {
 
 /* Footer */
 .footer {
-    background-color: rgba(0, 0, 0, 0.7); /* Optional: background for the footer */
+    background-color: #0f0f0f(0, 0, 0, 0.7); /* Optional: background for the footer */
+    background-color: rgb(140, 150, 144);
     width: 100%;
     padding: 5px 0;
     text-align: center;
