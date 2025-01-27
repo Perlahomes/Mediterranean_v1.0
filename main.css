@@ -131,7 +131,7 @@ button:active {
     margin: 0 auto; /* Center the logo */
     max-width: 350px; /* Adjust the size as needed */
     height: auto; /* Keep the aspect ratio intact */
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .round-btn {
