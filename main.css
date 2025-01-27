@@ -156,3 +156,31 @@ p {
     color: white;        /* Optional: ensure the text is white */
     margin-top: 5px;    /* Optional: add some spacing from the heading */
 }
+/* Define the animation for fade-in effect */
+.fade-in {
+    opacity: 0; /* Start as invisible */
+    animation: fadeInAnimation 2s forwards; /* Apply animation */
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0; /* Invisible at the start */
+    }
+    100% {
+        opacity: 1; /* Fully visible at the end */
+    }
+}
+
+/* Optional: Delay different elements to stagger their appearance */
+#logo {
+    animation-delay: 1s; /* Delay the logo by 0.5s */
+}
+
+#main-heading {
+    animation-delay: 1.5s; /* Delay the heading by 1s */
+}
+
+.button-item {
+    animation-delay: 2s; /* Delay buttons by 1.5s */
+    animation-duration: 3s;
+}
