@@ -59,7 +59,7 @@ body::after {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     flex-wrap: wrap; /* Allows wrapping for smaller screens */
 }
 
@@ -131,7 +131,7 @@ button:active {
     margin: 0 auto; /* Center the logo */
     max-width: 350px; /* Adjust the size as needed */
     height: auto; /* Keep the aspect ratio intact */
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .round-btn {
