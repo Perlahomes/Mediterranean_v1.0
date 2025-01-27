@@ -25,18 +25,35 @@
                 </button>
                 <span>Check-In <br> Instructions</span>
             </div>
+
             <div class="button-item fade-in">
-                <button class="round-btn" onclick="window.location.href='wifi.html'">
+                <button class="round-btn" onclick="showWifiCodeBox()">
                     <img src="images/wifi2.png" alt="Wifi">
                 </button>
-                <span>Wifi</span>
+                <span>WiFi Code</span>
             </div>
+            
+            <!-- Hidden Wifi Code Box -->
+            <div id="wifiCodeBox" style="display:none; padding: 10px; background-color: #0e0d0d; border: 1px solid #ccc; width: 100px; height: auto; max-width: 100%; text-align: center;">
+                <p> WiFi User: <strong>Mediterranean Heaven</strong></p> <br>
+                <p> Password: <strong>Perla2024</strong></p>
+                <button onclick="hideWifiCodeBox()">Close</button>
+            </div>
+
             <div class="button-item fade-in">
-                <button class="round-btn" onclick="window.location.href='wifi.html'">
+                <button class="round-btn" onclick="showCodeBox()">
                     <img src="images/master lock.jpg" alt="Wifi">
                 </button>
                 <span>Key-Lock<br>Code</span>
             </div>
+            
+            <!-- Hidden Code Box -->
+            <div id="codeBox" style="display:none; padding: 10px; background-color: #0e0d0d; border: 1px solid #ccc; width: 100px; height: auto; max-width: 100%; text-align: center;">
+                <p>Your Code: <strong>1619</strong></p>
+                <button onclick="hideCodeBox()">Close</button>
+            </div>
+            
+            
             <div class="button-item fade-in">
                 <a href="map.html">
                     <button class="round-btn">
