@@ -43,8 +43,8 @@ body::after {
 /* Language selector positioned at the top left */
 #google_translate_element {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 1px;
+    left: 1px;
     z-index: 9999;
     padding: 5px;
     
@@ -131,7 +131,7 @@ button:active {
     margin: 0 auto; /* Center the logo */
     max-width: 350px; /* Adjust the size as needed */
     height: auto; /* Keep the aspect ratio intact */
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .round-btn {
