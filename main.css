@@ -58,7 +58,7 @@ body::after {
 .button-container {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     margin-top: 10px;
     flex-wrap: wrap; /* Allows wrapping for smaller screens */
 }
