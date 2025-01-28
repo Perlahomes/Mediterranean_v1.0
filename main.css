@@ -77,8 +77,8 @@ body::after {
     border: none;
     padding: 0; /* Remove padding */
     border-radius: 50%;
-    width: 50px;  /* Smaller width */
-    height: 50px;  /* Smaller height */
+    width: 60px;  /* Smaller width */
+    height: 60px;  /* Smaller height */
     display: flex;
     justify-content: center;
     align-items: center;
