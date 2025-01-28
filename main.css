@@ -186,3 +186,11 @@ p {
     animation-delay: 2s; /* Delay buttons by 1.5s */
     animation-duration: 3s;
 }
+
+img1 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain; /* Ensures image is resized while maintaining aspect ratio */
+}
