@@ -196,3 +196,27 @@ p {
     height: auto;
     margin: 20px 0; /* Adds spacing between the images */
     border-radius: 10px; /* Optional: Adds rounded corners to images */
+}
+
+.home-button {
+    position: fixed;
+
+    top: 50px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.home-button button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Some padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.home-button button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
