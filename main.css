@@ -220,3 +220,8 @@ a {
 .home-button button:hover {
     background-color: #0c0c0c; /* Darker green on hover */
 }
+
+.tourist-guide {
+    display: block;
+    white-space: pre-line;
+}
