@@ -198,3 +198,25 @@ img1 {
 a {
     color: rgb(32, 31, 31); /* Change to any color you like */
   }
+
+  .home-button {
+    position: fixed;
+    top: 50px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.home-button button {
+    background-color: #9b9e89; /* Green background */
+    color: white; /* White text */
+    padding: 7px 15px; /* Some padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.home-button button:hover {
+    background-color: #0c0c0c; /* Darker green on hover */
+}
