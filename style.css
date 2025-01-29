@@ -208,10 +208,10 @@ p {
 .home-button button {
     background-color: #9b9e89; /* Green background */
     color: white; /* White text */
-    padding: 7px 15px; /* Some padding */
+    padding: 10px 10px; /* Some padding */
     border: none; /* No border */
     border-radius: 5px; /* Rounded corners */
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 700;
     cursor: pointer;
 }
