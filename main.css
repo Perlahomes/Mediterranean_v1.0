@@ -109,7 +109,7 @@ button:active {
 /* Text under the button */
 .button-item span {
     color: white;
-    font-size: 13px; /* Smaller text */
+    font-size: 14px; /* Smaller text */
     font-weight: bold;
 }
 
